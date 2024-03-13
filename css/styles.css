@@ -1,6 +1,6 @@
 /* Chat container */
 body{
-    background-image: url("./img/standard.gif"); /* Add your background image URL */
+    background-image: url('/img/standard.gif'); /* Add your background image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
 }
@@ -13,7 +13,7 @@ body{
     background-color: #ac8e8e; /* Light gray background */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    background-image: url("./img/standard.gif"); /* Add your background image URL */
+    background-image: url('/img/standard.gif'); /* Add your background image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
     display: flex; /* Use flexbox layout */

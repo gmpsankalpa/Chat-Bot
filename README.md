@@ -41,7 +41,7 @@ This is a simple chat application built using HTML, CSS, and JavaScript. It allo
 
 ## Demo
 
-You can view a live demo of the chat application [here](https://your-demo-url.com).
+You can view a live demo of the chat application [here](https://gmpsankalpa.github.io/Chat-Bot/).
 
 ## Screenshots
 
