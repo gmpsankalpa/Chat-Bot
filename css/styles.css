@@ -1,0 +1,93 @@
+/* Chat container */
+body{
+    background-image: url('/img/standard.gif'); /* Add your background image URL */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+.chat-container {
+    max-width: 700px; /* Adjust as needed */
+    height: 700px; /* Set a fixed height for the chat container */
+    margin: 100px auto; /* Center the chat container horizontally */
+    padding: 15px;
+    background-color: #ac8e8e; /* Light gray background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-image: url('/img/standard.gif'); /* Add your background image URL */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements vertically */
+}
+
+/* Chat box */
+.chat-box {
+    height: 100%; /* Fill the entire height of the chat container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    background-color: #ffffff; /* White chat box background */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* User input */
+.input-container {
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    
+}
+
+.input-container button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Bot message styling */
+.bot-message {
+    background-color: #cdf9ff; /* Light blue background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* User message styling */
+.user-message {
+    background-color: #e6ffe6; /* Light green background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Typing indicator */
+.typing-indicator {
+    font-style: italic;
+    color: #aaa;
+}
+
+@media screen and (max-width: 480px) {
+    .chat-container {
+        max-width: 100%;
+    }
+}
