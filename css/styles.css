@@ -1,4 +1,8 @@
 /* Chat container */
+:root {
+    --primary-color: #5598fd;
+  }
+  
 body{
     background: var(--primary-color);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
