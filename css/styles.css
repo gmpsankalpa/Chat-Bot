@@ -1,6 +1,6 @@
 /* Chat container */
 body{
-    background-image: url('img/standard.gif'); /* Add your background image URL */
+    background-image: url('/img/standard.gif'); /* Add your background image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
 }
