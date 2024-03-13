@@ -13,11 +13,14 @@ body{
     background-color: #ac8e8e; /* Light gray background */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    background-image: url('/standard.gif'); /* Add your background image URL */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the background image */
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Arrange child elements vertically */
+    background: var(--primary-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./img/standard.gif");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
 }
 
 /* Chat box */
